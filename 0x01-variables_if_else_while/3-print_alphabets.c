@@ -1,4 +1,4 @@
-#include <stido.h>
+#include <stdio.h>
 /**
  * main - Entry point
  * Description: 'write alpha'
@@ -14,10 +14,10 @@ int main(void)
 	{
 		putchar(n);
 	}
-	for (m = 65; n <= 90; m++)
-        {
-                putchar(m);
-        }
+	for (m = 65; m <= 90; m++)
+	{
+		putchar(m);
+	}
 	putchar('\n');
 	return (0);
 }
