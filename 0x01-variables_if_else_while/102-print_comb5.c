@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	int fd = 0,sd;
+	int fd = 0, sd;
 
 	while (fd <= 99)
 	{
