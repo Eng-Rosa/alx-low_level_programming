@@ -2,8 +2,9 @@
 
 /**
  * print_sign - print +if n is greter than 0
- * 
- * @n: takes int type 
+ *             0 if n is zero
+ *
+ * @n: 0takes int type
  *
  * Return: 1 if +, 0 if 0, -1 if -
  *
@@ -18,13 +19,13 @@ int print_sign(int n)
 	}
 	else if (n == 0)
 	{
-	
+
 		_putchar(48);
-                return (0);
+		return (0);
 	}
-	else 
+	else
 	{
-	 	_putchar(45);
-                return (-1);
+		_putchar(45);
+		return (-1);
 	}
 }
